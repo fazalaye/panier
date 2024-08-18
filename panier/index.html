@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+
+    <link rel="stylesheet" href="panier.css">
+    
+</head>
+<body>
+
+    <h1>Mon Panier</h1>
+
+    <div class="cart-item">
+        <img src="/14474-16549-1.webp" alt="Item 1">
+        <h3>Produit 1</h3>
+        <div class="quantity-controls">
+            <button class="minus-btn">-</button>
+            <span class="quantity">1</span>
+            <button class="plus-btn">+</button>
+        </div>
+        <span class="price">10€</span>
+        <span class="heart-btn">❤️</span>
+        <span class="delete-btn">🗑️</span>
+    </div>
+
+    <div class="cart-item">
+        <img src="/14474-16549-1.webp" alt="Item 2">
+        <h3>Produit 2</h3>
+        <div class="quantity-controls">
+            <button class="minus-btn">-</button>
+            <span class="quantity">1</span>
+            <button class="plus-btn">+</button>
+        </div>
+        <span class="price">15€</span>
+        <span class="heart-btn">❤️</span>
+        <span class="delete-btn">🗑️</span>
+    </div>
+
+    <div class="total-price">
+        Total: <span id="total">25</span>€
+    </div>
+
+    <script src="panier.js"></script>
+</body>
+</html>
